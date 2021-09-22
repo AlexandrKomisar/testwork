@@ -1,0 +1,17 @@
+.header {
+  background: #ffffff;
+  &__nav {
+    border: 2px solid #eaedf5;
+    box-sizing: border-box;
+    border-radius: 8px;
+  }
+
+  &__content {
+    &_left {
+      &_title {
+        font-family: "BBC Reith Sans";
+        font-size: 48px;
+      }
+    }
+  }
+}

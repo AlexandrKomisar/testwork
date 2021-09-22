@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "BBC Reith Sans";
+  src: url(/fonts/BBCReithSans_Normal.woff);
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url(/fonts/NotoSans-Regular.ttf);
+}
+
+.header {
+  background: #ffffff;
+}
+
+.header__nav {
+  border: 2px solid #eaedf5;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.header__content_left_title {
+  font-family: "BBC Reith Sans";
+  font-size: 48px;
+}
+
+.modern_right {
+  background: #163da1;
+}
+/*# sourceMappingURL=styles.css.map */

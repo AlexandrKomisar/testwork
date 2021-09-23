@@ -1,29 +1,103 @@
 @font-face {
-  font-family: "BBC Reith Sans";
-  src: url(/fonts/BBCReithSans_Normal.woff);
+  font-family: "BBCReith Bold";
+  src: url(/fonts/BBCReithSerif_W_Bd.woff);
+}
+@font-face {
+  font-family: "Noto Sans Regular";
+  src: url(/fonts/NotoSans-Regular.ttf);
+}
+@font-face {
+  font-family: "Noto Sans Bold";
+  src: url(/fonts/NotoSans-Bold.ttf);
+}
+a {
+  color: #45494f;
 }
 
-@font-face {
-  font-family: "Noto Sans";
-  src: url(/fonts/NotoSans-Regular.ttf);
+ul {
+  margin-top: 7px;
+}
+
+.logo {
+  margin-right: 70px;
 }
 
 .header {
   background: #ffffff;
+  font-size: 17px;
 }
-
 .header__nav {
+  font-family: "Noto Sans Regular";
+  border: 2px solid #ffffff;
+  margin: 2px;
+}
+.header__nav:hover {
+  color: #2e75ff;
   border: 2px solid #eaedf5;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   border-radius: 8px;
 }
-
+.header__nav_item {
+  padding: 5px;
+}
+.header__content {
+  margin-top: 23px;
+  margin-bottom: 24px;
+}
 .header__content_left_title {
-  font-family: "BBC Reith Sans";
+  margin: 80px 0 0 0;
+  font-family: "BBCReith Bold";
   font-size: 48px;
+  color: #1652ac;
+}
+.header__content_left_text {
+  font-family: "Noto Sans Bold";
+  color: #020303;
+}
+.header__content_left_line {
+  border: 7px solid #edeff3;
+  width: 227px;
+  height: 0px;
+  margin-top: 55px;
+  margin-bottom: 55px;
 }
 
-.modern_right {
+.energ__right_title {
+  font-family: "BBCReith Bold";
+  font-size: 20px;
+  line-height: 40px;
+  color: #1652ac;
+  margin-top: 34px;
+  margin-bottom: 23px;
+}
+.energ__right_text {
+  font-family: "Noto Sans Regular";
+  font-size: 17px;
+  color: #45494f;
+}
+.energ__right_text_span {
+  font-family: "Noto Sans Bold";
+}
+
+.modern {
+  margin-top: 66px;
+  margin-bottom: 91px;
   background: #163da1;
 }
-/*# sourceMappingURL=styles.css.map */
+.modern__right_title {
+  margin-top: 151px;
+  margin-bottom: 22px;
+  font-family: "BBCReith Bold";
+  font-size: 20px;
+  color: #fbfdff;
+}
+.modern__right_text {
+  color: #fbfdff;
+  font-family: "Noto Sans Regular";
+  font-size: 17px;
+  padding-right: 217px;
+}
+.modern__right_text_span {
+  font-family: "Noto Sans Bold";
+}

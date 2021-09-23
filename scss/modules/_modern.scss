@@ -1,5 +1,23 @@
 .modern {
-  &_right {
-    background: #163da1;
+  margin-top: 66px;
+  margin-bottom: 91px;
+  background: #163da1;
+  &__right {
+    &_title {
+      margin-top: 151px;
+      margin-bottom: 22px;
+      font-family: "BBCReith Bold";
+      font-size: 20px;
+      color: #fbfdff;
+    }
+    &_text {
+      color: #fbfdff;
+      font-family: "Noto Sans Regular";
+      font-size: 17px;
+      padding-right: 217px;
+      &_span {
+        font-family: "Noto Sans Bold";
+      }
+    }
   }
 }

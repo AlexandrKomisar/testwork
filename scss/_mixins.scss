@@ -1,5 +1,7 @@
-@mixin textStyle {
-  font-family: "Noto Sans";
-  font-weight: 400;
-  font-size: 17px;
+@mixin line {
+  border: 7px solid #edeff3;
+  width: 227px;
+  height: 0px;
+  margin-top: 55px;
+  margin-bottom: 55px;
 }

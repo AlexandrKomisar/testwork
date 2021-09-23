@@ -1,0 +1,20 @@
+.energ {
+  &__right {
+    &_title {
+      font-family: "BBCReith Bold";
+      font-size: 20px;
+      line-height: 40px;
+      color: #1652ac;
+      margin-top: 34px;
+      margin-bottom: 23px;
+    }
+    &_text {
+      font-family: "Noto Sans Regular";
+      font-size: 17px;
+      color: #45494f;
+      &_span {
+        font-family: "Noto Sans Bold";
+      }
+    }
+  }
+}

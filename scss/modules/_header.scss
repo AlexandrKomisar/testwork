@@ -1,16 +1,39 @@
 .header {
   background: #ffffff;
+  font-size: 17px;
+
   &__nav {
-    border: 2px solid #eaedf5;
-    box-sizing: border-box;
-    border-radius: 8px;
+    font-family: "Noto Sans Regular";
+    border: 2px solid #ffffff;
+    margin: 2px;
+    &:hover {
+      color: #2e75ff;
+      border: 2px solid #eaedf5;
+      box-sizing: border-box;
+      border-radius: 8px;
+    }
+
+    &_item {
+      padding: 5px;
+    }
   }
 
   &__content {
+    margin-top: 23px;
+    margin-bottom: 24px;
     &_left {
       &_title {
-        font-family: "BBC Reith Sans";
+        margin: 80px 0 0 0;
+        font-family: "BBCReith Bold";
         font-size: 48px;
+        color: #1652ac;
+      }
+      &_text {
+        font-family: "Noto Sans Bold";
+        color: #020303;
+      }
+      &_line {
+        @include line;
       }
     }
   }

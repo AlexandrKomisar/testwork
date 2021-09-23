@@ -1,9 +1,26 @@
 @font-face {
-  font-family: "BBC Reith Sans";
-  src: url(/fonts/BBCReithSans_Normal.woff);
+  font-family: "BBCReith Bold";
+  src: url(/fonts/BBCReithSerif_W_Bd.woff);
 }
 
 @font-face {
-  font-family: "Noto Sans";
+  font-family: "Noto Sans Regular";
   src: url(/fonts/NotoSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Noto Sans Bold";
+  src: url(/fonts/NotoSans-Bold.ttf);
+}
+
+a {
+  color: #45494f;
+}
+
+ul {
+  margin-top: 7px;
+}
+
+.logo {
+  margin-right: 70px;
 }

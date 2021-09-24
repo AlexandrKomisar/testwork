@@ -1,0 +1,29 @@
+.spezial {
+  height: 480px;
+  flex-wrap: nowrap;
+  &__left {
+    margin-left: 126px;
+    width: 556px;
+    &_title {
+      font-family: "BBCReith Bold";
+      color: #1652ac;
+      font-size: 20px;
+      line-height: 40px;
+      letter-spacing: 2.42px;
+      padding-right: 95px;
+    }
+    &_text {
+      font-family: "Noto Sans Regular";
+      font-size: 17px;
+      line-height: 32px;
+      &_span {
+        font-family: "Noto Sans Bold";
+      }
+    }
+  }
+  &_right {
+    background-image: url(/images/bg.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+  }
+}

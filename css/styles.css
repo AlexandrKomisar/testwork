@@ -2,14 +2,17 @@
   font-family: "BBCReith Bold";
   src: url(/fonts/BBCReithSerif_W_Bd.woff);
 }
+
 @font-face {
   font-family: "Noto Sans Regular";
   src: url(/fonts/NotoSans-Regular.ttf);
 }
+
 @font-face {
   font-family: "Noto Sans Bold";
   src: url(/fonts/NotoSans-Bold.ttf);
 }
+
 a {
   color: #45494f;
 }
@@ -26,35 +29,41 @@ ul {
   background: #ffffff;
   font-size: 17px;
 }
+
 .header__nav {
   font-family: "Noto Sans Regular";
   border: 2px solid #ffffff;
   margin: 2px;
 }
+
 .header__nav:hover {
   color: #2e75ff;
   border: 2px solid #eaedf5;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   border-radius: 8px;
 }
+
 .header__nav_item {
   padding: 5px;
 }
+
 .header__content {
   margin-top: 23px;
   margin-bottom: 24px;
 }
+
 .header__content_left_title {
   margin: 80px 0 0 0;
   font-family: "BBCReith Bold";
   font-size: 48px;
   color: #1652ac;
 }
+
 .header__content_left_text {
   font-family: "Noto Sans Bold";
   color: #020303;
 }
+
 .header__content_left_line {
   border: 7px solid #edeff3;
   width: 227px;
@@ -71,11 +80,13 @@ ul {
   margin-top: 34px;
   margin-bottom: 23px;
 }
+
 .energ__right_text {
   font-family: "Noto Sans Regular";
   font-size: 17px;
   color: #45494f;
 }
+
 .energ__right_text_span {
   font-family: "Noto Sans Bold";
 }
@@ -85,19 +96,60 @@ ul {
   margin-bottom: 91px;
   background: #163da1;
 }
+
 .modern__right_title {
   margin-top: 151px;
   margin-bottom: 22px;
   font-family: "BBCReith Bold";
   font-size: 20px;
+  letter-spacing: 2.42px;
   color: #fbfdff;
 }
+
 .modern__right_text {
   color: #fbfdff;
   font-family: "Noto Sans Regular";
   font-size: 17px;
+  line-height: 32px;
   padding-right: 217px;
 }
+
 .modern__right_text_span {
   font-family: "Noto Sans Bold";
 }
+
+.spezial {
+  height: 480px;
+  flex-wrap: nowrap;
+}
+
+.spezial__left {
+  margin-left: 126px;
+  width: 556px;
+}
+
+.spezial__left_title {
+  font-family: "BBCReith Bold";
+  color: #1652ac;
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 2.42px;
+  padding-right: 95px;
+}
+
+.spezial__left_text {
+  font-family: "Noto Sans Regular";
+  font-size: 17px;
+  line-height: 32px;
+}
+
+.spezial__left_text_span {
+  font-family: "Noto Sans Bold";
+}
+
+.spezial_right {
+  background-image: url(/images/bg.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+/*# sourceMappingURL=styles.css.map */

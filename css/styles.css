@@ -346,4 +346,33 @@ li > p {
 .kontakt__logo1 {
   margin-top: 60px;
 }
+
+.footer {
+  margin-bottom: 56px;
+  font-family: "Noto Sans Regular";
+  font-size: 17px;
+  color: #9eabbb;
+}
+
+.footer__title {
+  font-family: "Noto Sans Bold";
+  color: #a3adba;
+}
+
+.footer__textdekor {
+  text-decoration: underline;
+}
+
+.footer__black {
+  color: black;
+}
+
+.footer__grey {
+  color: #9eabbb;
+  text-decoration: underline;
+}
+
+.footer__pad {
+  height: 25px;
+}
 /*# sourceMappingURL=styles.css.map */

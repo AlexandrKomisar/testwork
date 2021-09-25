@@ -1,0 +1,23 @@
+.footer {
+  margin-bottom: 56px;
+  font-family: "Noto Sans Regular";
+  font-size: 17px;
+  color: #9eabbb;
+  &__title {
+    font-family: "Noto Sans Bold";
+    color: #a3adba;
+  }
+  &__textdekor {
+    text-decoration: underline;
+  }
+  &__black {
+    color: black;
+  }
+  &__grey {
+    color: #9eabbb;
+    text-decoration: underline;
+  }
+  &__pad {
+    height: 25px;
+  }
+}

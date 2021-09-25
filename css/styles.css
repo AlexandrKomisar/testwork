@@ -30,6 +30,10 @@ ul {
   margin-right: 70px;
 }
 
+li > p {
+  margin-left: 20px;
+}
+
 .header {
   background: #ffffff;
   font-size: 17px;
@@ -206,6 +210,10 @@ ul {
   transform: translateY(-50%);
 }
 
+.hauptmerk {
+  background-color: #ffffff;
+}
+
 .hauptmerk__title {
   text-align: center;
   font-family: "BBCReith Medium";
@@ -215,5 +223,52 @@ ul {
   color: #020303;
   margin-top: 100px;
   margin-bottom: 71px;
+}
+
+.hauptmerk__content_list {
+  padding-left: 52px;
+}
+
+.hauptmerk__content_list_item {
+  font-family: "Noto Sans Regular";
+  list-style: none;
+  font-size: 17px;
+  line-height: 35px;
+  letter-spacing: -0.4px;
+  color: #45494f;
+  display: flex;
+}
+
+.hauptmerk__content_list_item_span {
+  font-family: "Noto Sans Bold";
+}
+
+.bilder__title {
+  text-align: center;
+  margin-top: 74px;
+  margin-bottom: 31px;
+  font-family: "BBCReith Medium";
+  letter-spacing: 4.42px;
+  font-size: 28px;
+  line-height: 40px;
+}
+
+.bilder__slide {
+  margin-left: 25%;
+}
+
+.bilder__slide_nav {
+  display: flex;
+}
+
+.bilder__slide_nav_btn {
+  width: 126px;
+  height: 78px;
+  background: #ffffff;
+  box-shadow: 0px 0px 21px rgba(64, 68, 75, 0.14);
+  border-radius: 8px;
+  margin-top: 29px;
+  text-align: center;
+  padding: 17px;
 }
 /*# sourceMappingURL=styles.css.map */

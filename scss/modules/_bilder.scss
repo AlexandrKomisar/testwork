@@ -1,0 +1,27 @@
+.bilder {
+  &__title {
+    text-align: center;
+    margin-top: 74px;
+    margin-bottom: 31px;
+    font-family: "BBCReith Medium";
+    letter-spacing: 4.42px;
+    font-size: 28px;
+    line-height: 40px;
+  }
+  &__slide {
+    margin-left: 25%;
+    &_nav {
+      display: flex;
+      &_btn {
+        width: 126px;
+        height: 78px;
+        background: #ffffff;
+        box-shadow: 0px 0px 21px rgba(64, 68, 75, 0.14);
+        border-radius: 8px;
+        margin-top: 29px;
+        text-align: center;
+        padding: 17px;
+      }
+    }
+  }
+}

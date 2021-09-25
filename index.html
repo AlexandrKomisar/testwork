@@ -397,10 +397,10 @@
         </div>
       </section>
       <section class="bilder">
-        <h2 class="bilder_title">BILDER</h2>
+        <h2 class="bilder__title">BILDER</h2>
         <div
           id="carouselExampleCaptions"
-          class="carousel slide col-6"
+          class="carousel slide col-6 bilder__slide"
           data-ride="carousel"
         >
           <ol class="carousel-indicators">
@@ -435,24 +435,39 @@
               />
             </div>
           </div>
-          <a
-            class="carousel-control-prev"
-            href="#carouselExampleCaptions"
-            role="button"
-            data-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only"></span>
-          </a>
-          <a
-            class="carousel-control-next"
-            href="#carouselExampleCaptions"
-            role="button"
-            data-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only"></span>
-          </a>
+
+          <div class="bilder__slide_nav">
+            <div class="bilder__slide_nav_btn">
+              <img src="/images/icons/Vector 12.svg" alt="icon" />
+              <a
+                class="carousel-control-prev"
+                href="#carouselExampleCaptions"
+                role="button"
+                data-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only"></span>
+              </a>
+            </div>
+            <div class="bilder__slide_nav_btn">
+              <img src="/images/icons/Vector 13.svg" alt="icon" />
+              <a
+                class="carousel-control-next"
+                href="#carouselExampleCaptions"
+                role="button"
+                data-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only"></span>
+              </a>
+            </div>
+          </div>
         </div>
       </section>
       <section class="besucher">

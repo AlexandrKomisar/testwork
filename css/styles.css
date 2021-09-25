@@ -18,7 +18,7 @@
   src: url(/fonts/NotoSans-Bold.ttf);
 }
 
-a {
+li > a {
   color: #45494f;
 }
 
@@ -270,5 +270,80 @@ li > p {
   margin-top: 29px;
   text-align: center;
   padding: 17px;
+}
+
+.besucher {
+  background: #fbfbfc;
+}
+
+.besucher__title {
+  font-family: "BBCReith Medium";
+  font-size: 28px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 2.42px;
+  padding-top: 78px;
+  padding-bottom: 31px;
+}
+
+.besucher_content_btn {
+  font-family: "BBCReith Medium";
+  background: linear-gradient(180deg, #0c5cd6 0%, rgba(0, 56, 140, 0) 100%), #004fc7;
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.21);
+  border-radius: 12px;
+  color: #fafbfe;
+  font-size: 17px;
+  line-height: 40px;
+  letter-spacing: 1.42px;
+}
+
+.kontakt {
+  margin-top: 155px;
+  margin-bottom: 126px;
+}
+
+.kontakt__title {
+  font-family: "BBCReith Bold";
+  font-size: 34px;
+  line-height: 43px;
+  letter-spacing: -0.4px;
+  color: #1652ac;
+  margin-top: 73px;
+}
+
+.kontakt__text {
+  font-family: "Noto Sans Regular";
+  font-size: 17px;
+  line-height: 32px;
+  letter-spacing: -0.4px;
+  color: #464c53;
+  padding-right: 40px;
+}
+
+.kontakt__text_btn {
+  background: linear-gradient(180deg, #0c5cd6 0%, rgba(0, 56, 140, 0) 100%), #004fc7;
+  font-family: "BBCReith Medium";
+  font-size: 18px;
+  line-height: 26px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 4px rgba(48, 67, 133, 0.5);
+  border-radius: 12px;
+  width: 306px;
+  height: 69px;
+  position: relative;
+}
+
+.kontakt__text_btn_arrows {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.kontakt__logo1 {
+  margin-top: 60px;
 }
 /*# sourceMappingURL=styles.css.map */

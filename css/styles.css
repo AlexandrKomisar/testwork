@@ -1,21 +1,21 @@
 @font-face {
   font-family: "BBCReith Bold";
-  src: url(/fonts/BBCReithSerif_W_Bd.woff);
+  src: url("../fonts/BBCReithSerif_W_Bd.woff");
 }
 
 @font-face {
   font-family: "BBCReith Medium";
-  src: url(/fonts/BBCReithSerif_W_Md.woff);
+  src: url("../fonts/BBCReithSerif_W_Md.woff");
 }
 
 @font-face {
   font-family: "Noto Sans Regular";
-  src: url(/fonts/NotoSans-Regular.ttf);
+  src: url("../fonts/NotoSans-Regular.ttf");
 }
 
 @font-face {
   font-family: "Noto Sans Bold";
-  src: url(/fonts/NotoSans-Bold.ttf);
+  src: url("../fonts/NotoSans-Bold.ttf");
 }
 
 li > a {
@@ -137,7 +137,7 @@ li > p {
   width: 556px;
 }
 
-.spezial__left_title {
+.spezial__left__title {
   font-family: "BBCReith Bold";
   color: #1652ac;
   font-size: 20px;
@@ -146,18 +146,18 @@ li > p {
   padding-right: 95px;
 }
 
-.spezial__left_text {
+.spezial__left__text {
   font-family: "Noto Sans Regular";
   font-size: 17px;
   line-height: 32px;
 }
 
-.spezial__left_text_span {
+.spezial__left__text_span {
   font-family: "Noto Sans Bold";
 }
 
-.spezial_right {
-  background-image: url(/images/bg.png);
+.spezial__right {
+  background-image: url("../images/bg.png");
   background-repeat: no-repeat;
   background-position: right center;
 }

@@ -10,12 +10,16 @@
 
 @font-face {
   font-family: "Noto Sans Regular";
-  src: url("../fonts/NotoSans-Regular.ttf");
+  src: url("./fonts/NotoSans-Regular.ttf");
 }
 
 @font-face {
   font-family: "Noto Sans Bold";
   src: url("../fonts/NotoSans-Bold.ttf");
+}
+
+.container {
+  width: 1200px;
 }
 
 li > a {
@@ -26,12 +30,20 @@ ul {
   margin-top: 7px;
 }
 
-.logo {
-  margin-right: 70px;
-}
-
 li > p {
   margin-left: 20px;
+}
+
+.mobile_on {
+  display: none;
+}
+
+.mobile_none {
+  display: block;
+}
+
+img {
+  width: auto;
 }
 
 .header {
@@ -57,6 +69,8 @@ li > p {
 }
 
 .header__content {
+  display: flex;
+  flex-direction: row;
   margin-top: 23px;
   margin-bottom: 24px;
 }
@@ -76,9 +90,19 @@ li > p {
 .header__content_left_line {
   border: 7px solid #edeff3;
   width: 227px;
-  height: 0px;
+  height: 7px;
   margin-top: 55px;
   margin-bottom: 55px;
+}
+
+.energ {
+  display: flex;
+  flex-direction: row;
+}
+
+.energ__right {
+  width: 50%;
+  padding-left: 50px;
 }
 
 .energ__right_title {
@@ -100,10 +124,16 @@ li > p {
   font-family: "Noto Sans Bold";
 }
 
+.energ__left {
+  width: 50%;
+}
+
 .modern {
   margin-top: 66px;
   margin-bottom: 91px;
   background: #163da1;
+  display: flex;
+  flex-direction: row;
 }
 
 .modern__right_title {
@@ -113,6 +143,7 @@ li > p {
   font-size: 20px;
   letter-spacing: 2.42px;
   color: #fbfdff;
+  padding-left: 10%;
 }
 
 .modern__right_text {
@@ -120,24 +151,31 @@ li > p {
   font-family: "Noto Sans Regular";
   font-size: 17px;
   line-height: 32px;
-  padding-right: 217px;
+  padding-right: 10%;
+  padding-left: 10%;
 }
 
 .modern__right_text_span {
   font-family: "Noto Sans Bold";
 }
 
+.modern__left_img {
+  width: 500px;
+}
+
 .spezial {
+  display: flex;
+  flex-direction: row;
   height: 480px;
-  flex-wrap: nowrap;
 }
 
 .spezial__left {
+  left: 50%;
   margin-left: 126px;
   width: 556px;
 }
 
-.spezial__left__title {
+.spezial__left_title {
   font-family: "BBCReith Bold";
   color: #1652ac;
   font-size: 20px;
@@ -146,17 +184,18 @@ li > p {
   padding-right: 95px;
 }
 
-.spezial__left__text {
+.spezial__left_text {
   font-family: "Noto Sans Regular";
   font-size: 17px;
   line-height: 32px;
 }
 
-.spezial__left__text_span {
+.spezial__left_text_span {
   font-family: "Noto Sans Bold";
 }
 
 .spezial__right {
+  width: 50%;
   background-image: url("../images/bg.png");
   background-repeat: no-repeat;
   background-position: right center;
@@ -374,5 +413,41 @@ li > p {
 
 .footer__pad {
   height: 25px;
+}
+
+@media screen and (max-width: 989px) {
+  .mobile_none {
+    display: none;
+  }
+  .mobile_on {
+    display: block;
+  }
+  .header__content {
+    display: flex;
+    flex-direction: column;
+  }
+  .header__content_left_title {
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.4px;
+  }
+  .header__content_left_line {
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+  .energ {
+    display: block;
+  }
+  .energ__right {
+    width: 100%;
+    padding: 5px;
+  }
+  .energ__right_title {
+    text-align: center;
+  }
+  .energ__left {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

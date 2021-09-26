@@ -1,7 +1,22 @@
 @mixin line {
   border: 7px solid #edeff3;
   width: 227px;
-  height: 0px;
+  height: 7px;
   margin-top: 55px;
   margin-bottom: 55px;
+}
+
+@mixin flexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+@mixin flexCol {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin center {
+  margin-left: 50%;
+  transform: translateX(-50%);
 }

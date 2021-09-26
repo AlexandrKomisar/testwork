@@ -2,6 +2,7 @@
   margin-top: 66px;
   margin-bottom: 91px;
   background: #163da1;
+  @include flexRow;
   &__right {
     &_title {
       margin-top: 151px;
@@ -10,16 +11,23 @@
       font-size: 20px;
       letter-spacing: 2.42px;
       color: #fbfdff;
+      padding-left: 10%;
     }
     &_text {
       color: #fbfdff;
       font-family: "Noto Sans Regular";
       font-size: 17px;
       line-height: 32px;
-      padding-right: 217px;
+      padding-right: 10%;
+      padding-left: 10%;
       &_span {
         font-family: "Noto Sans Bold";
       }
+    }
+  }
+  &__left {
+    &_img {
+      width: 500px;
     }
   }
 }

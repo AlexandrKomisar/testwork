@@ -10,12 +10,16 @@
 
 @font-face {
   font-family: "Noto Sans Regular";
-  src: url("../fonts/NotoSans-Regular.ttf");
+  src: url("./fonts/NotoSans-Regular.ttf");
 }
 
 @font-face {
   font-family: "Noto Sans Bold";
   src: url("../fonts/NotoSans-Bold.ttf");
+}
+
+.container {
+  width: 1200px;
 }
 
 li > a {
@@ -26,10 +30,18 @@ ul {
   margin-top: 7px;
 }
 
-.logo {
-  margin-right: 70px;
-}
-
 li > p {
   margin-left: 20px;
+}
+
+.mobile_on {
+  display: none;
+}
+
+.mobile_none {
+  display: block;
+}
+
+img {
+  width: auto;
 }

@@ -1,7 +1,6 @@
 .header {
   background: #ffffff;
   font-size: 17px;
-
   &__nav {
     font-family: "Noto Sans Regular";
     border: 2px solid #ffffff;
@@ -19,6 +18,8 @@
   }
 
   &__content {
+    display: flex;
+    flex-direction: row;
     margin-top: 23px;
     margin-bottom: 24px;
     &_left {
@@ -34,6 +35,27 @@
       }
       &_line {
         @include line;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 989px) {
+  .header {
+    &__content {
+      display: flex;
+      flex-direction: column;
+      &_left {
+        &_title {
+          font-size: 34px;
+          line-height: 40px;
+          text-align: center;
+          letter-spacing: -0.4px;
+        }
+        &_line {
+          margin-left: 50%;
+          transform: translateX(-50%);
+        }
       }
     }
   }

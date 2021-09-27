@@ -10,7 +10,8 @@
     margin-bottom: 42px;
   }
   &__content {
-    @include flexRow;
+    display: flex;
+    flex-wrap: wrap;
     &_list {
       width: 32%;
       height: 136px;

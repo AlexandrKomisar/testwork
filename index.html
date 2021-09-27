@@ -16,7 +16,7 @@
   <body>
     <div class="container">
       <header class="header">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light">
           <a class="navbar-brand header__nav_item" href="#"
             ><img src="./images/Logo.png" alt="logo" class="header__logo"
           /></a>
@@ -34,11 +34,11 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#"
+                <a class="nav-link header__nav" href="#"
                   >Über Uns <span class="sr-only">(current)</span></a
                 >
               </li>
-              <li class="nav-item dropdown">
+              <li class="nav-item dropdown header__nav">
                 <a
                   class="nav-link dropdown-toggle"
                   href="#"
@@ -59,7 +59,7 @@
               </li>
               <li class="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle"
+                  class="nav-link dropdown-toggle header__nav"
                   href="#"
                   id="navbarDropdown1"
                   role="button"
@@ -78,7 +78,7 @@
               </li>
               <li class="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle"
+                  class="nav-link dropdown-toggle header__nav"
                   href="#"
                   id="navbarDropdown2"
                   role="button"
@@ -96,13 +96,13 @@
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Klimatechnik</a>
+                <a class="nav-link header__nav" href="#">Klimatechnik</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Kontakt</a>
+                <a class="nav-link header__nav" href="#kontakt">Kontakt</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Presse</a>
+                <a class="nav-link header__nav" href="#">Presse</a>
               </li>
             </ul>
           </div>
@@ -202,7 +202,10 @@
           auch bei kleinen Nennleistungen.
         </p>
       </div>
-      <div class="spezial__right"></div>
+      <div class="spezial__right">
+        <div class="spezial__right_gradient mobile_on"></div>
+        <div class="spezial__right_gradient mobile_on"></div>
+      </div>
     </section>
     <div class="container">
       <section class="vorteile">
@@ -520,6 +523,7 @@
         </div>
       </section>
       <section class="kontakt">
+        <a name="kontakt"></a>
         <div class="kontakt__logo1 mobile_on">
           <img src="./images/Logo3black.png" alt="logo" class="logo" />
         </div>
@@ -573,12 +577,12 @@
         <div class="footer__box">
           <h6 class="footer__title">Shortlinks</h6>
           <p>
-            <a href="kontakt">
+            <a href="#kontakt">
               <span class="footer__grey">Kontakt</span>
             </a>
           </p>
           <p>
-            <a href="Rückruf vereinbaren">
+            <a href="#Rückruf vereinbaren">
               <span class="footer__grey">Rückruf vereinbaren</span>
             </a>
           </p>

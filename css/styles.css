@@ -217,7 +217,7 @@ img {
 
 .vorteile__content {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .vorteile__content_list {
@@ -330,6 +330,7 @@ img {
   letter-spacing: 2.42px;
   padding-top: 78px;
   padding-bottom: 31px;
+  color: #020303;
 }
 
 .besucher_content_btn {
@@ -422,6 +423,7 @@ img {
 .footer__title {
   font-family: "Noto Sans Bold";
   color: #a3adba;
+  font-size: 17px;
 }
 
 .footer__textdekor {
@@ -474,6 +476,151 @@ img {
   }
   .energ__left {
     width: 100%;
+  }
+  .modern {
+    margin-top: 66px;
+    margin-bottom: 91px;
+    display: flex;
+    flex-direction: column;
+  }
+  .modern__right_title {
+    margin-top: 39px;
+    margin-bottom: 16px;
+    font-size: 18px;
+  }
+  .modern__right_text {
+    font-size: 16px;
+  }
+  .modern__left_img {
+    width: 100%;
+  }
+  .spezial {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .spezial__left {
+    padding-right: 10%;
+  }
+  .spezial__left_title {
+    font-size: 18px;
+  }
+  .spezial__left_text {
+    font-size: 17px;
+  }
+  .spezial__right {
+    background-image: none;
+  }
+  .vorteile {
+    background: #fbfbfc;
+  }
+  .vorteile__title {
+    font-family: "BBCReith Medium";
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 4.42px;
+    text-align: center;
+    margin-top: 67px;
+    margin-bottom: 42px;
+  }
+  .vorteile__content {
+    display: flex;
+    flex-direction: column;
+  }
+  .vorteile__content_list {
+    width: 100%;
+  }
+  .vorteile__content_text {
+    padding-right: 50px;
+  }
+  .hauptmerk__title {
+    font-size: 20px;
+    margin-top: 46px;
+    margin-bottom: 37px;
+  }
+  .hauptmerk__content {
+    display: flex;
+    flex-direction: column;
+  }
+  .hauptmerk__content_list_item {
+    font-size: 16px;
+  }
+  .bilder__title {
+    margin-top: 32px;
+    margin-bottom: 18px;
+    font-size: 20px;
+  }
+  .bilder__slide {
+    width: 100%;
+  }
+  .bilder__slide_nav {
+    display: none;
+  }
+  .besucher__title {
+    font-size: 20px;
+    padding-top: 68px;
+    padding-bottom: 3px;
+  }
+  .besucher_content_btn {
+    width: 100%;
+    height: 64px;
+    font-size: 16px;
+  }
+  .kontakt {
+    margin-top: 155px;
+    margin-bottom: 126px;
+    display: flex;
+    flex-direction: column;
+  }
+  .kontakt__left {
+    width: 100%;
+  }
+  .kontakt__left_title {
+    font-size: 26px;
+    margin-top: 27px;
+    text-align: center;
+  }
+  .kontakt__center {
+    width: 100%;
+  }
+  .kontakt__center_text {
+    font-size: 16px;
+  }
+  .kontakt__center_text_btn {
+    width: 100%;
+    height: 69px;
+  }
+  .kontakt__logo1 {
+    width: 100%;
+    margin-top: 20px;
+    padding-left: 0;
+    text-align: center;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  .footer__box {
+    width: 100%;
+  }
+  .footer__title {
+    font-family: "Noto Sans Bold";
+    color: #a3adba;
+    font-size: 16px;
+  }
+  .footer__textdekor {
+    text-decoration: underline;
+  }
+  .footer__black {
+    color: black;
+  }
+  .footer__grey {
+    color: #9eabbb;
+    text-decoration: underline;
+  }
+  .footer__pad {
+    height: 0;
   }
 }
 /*# sourceMappingURL=styles.css.map */

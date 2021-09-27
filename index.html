@@ -18,7 +18,7 @@
       <header class="header">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <a class="navbar-brand header__nav_item" href="#"
-            ><img src="../images/Logo.png" alt="logo" class="header__logo"
+            ><img src="./images/Logo.png" alt="logo" class="header__logo"
           /></a>
           <button
             class="navbar-toggler"
@@ -202,9 +202,7 @@
           auch bei kleinen Nennleistungen.
         </p>
       </div>
-      <div class="spezial__right">
-        <!-- <img class="spezial__right_img" src="./images/bg.png" alt="bg" /> -->
-      </div>
+      <div class="spezial__right"></div>
     </section>
     <div class="container">
       <section class="vorteile">
@@ -308,8 +306,8 @@
       </section>
       <section class="hauptmerk">
         <h2 class="hauptmerk__title">HAUPTMERKMALE</h2>
-        <div class="hauptmerk__content row">
-          <ul class="hauptmerk__content_list col-6">
+        <div class="hauptmerk__content">
+          <ul class="hauptmerk__content_list">
             <li class="hauptmerk__content_list_item">
               ①
               <p>
@@ -364,15 +362,18 @@
               <p>Schallmindernde Ventilatortechnik erhältlich</p>
             </li>
           </ul>
-          <ul class="hauptmerk__content_list col-6">
+          <ul class="hauptmerk__content_list">
             <li class="hauptmerk__content_list_item">
               ⑧
               <p>
                 <span class="hauptmerk__content_list_item_span"
                   >Scroll, Multiscroll</span
-                >und<span class="hauptmerk__content_list_item_span"
+                >
+                und
+                <span class="hauptmerk__content_list_item_span"
                   >Schraubenkompressoren</span
-                >(optional mit Frequenzumrichter) erhältlich
+                >
+                (optional mit Frequenzumrichter) erhältlich
               </p>
             </li>
             <li class="hauptmerk__content_list_item">
@@ -436,7 +437,7 @@
         <h2 class="bilder__title">BILDER</h2>
         <div
           id="carouselExampleCaptions"
-          class="carousel slide col-6 bilder__slide"
+          class="carousel slide bilder__slide"
           data-ride="carousel"
         >
           <ol class="carousel-indicators">
@@ -511,51 +512,49 @@
           BESUCHER DIESER SEITE SUCHTEN AUCH OFT NACH:
         </h3>
         <div class="besucher_content row">
-          <button class="besucher_content_btn col-4">GLYKOLWANNEN</button>
-          <button class="besucher_content_btn col-4">WASSERAUFBEREITUNG</button>
-          <button class="besucher_content_btn col-4">ROHRLEITUNGSBAU</button>
-          <button class="besucher_content_btn col-4">
-            WäRMEMENGENMESSUNGEN
-          </button>
-          <button class="besucher_content_btn col-4">ANLAGELEASING</button>
+          <button class="besucher_content_btn">GLYKOLWANNEN</button>
+          <button class="besucher_content_btn">WASSERAUFBEREITUNG</button>
+          <button class="besucher_content_btn">ROHRLEITUNGSBAU</button>
+          <button class="besucher_content_btn">WäRMEMENGENMESSUNGEN</button>
+          <button class="besucher_content_btn">ANLAGELEASING</button>
         </div>
       </section>
-      <section class="kontakt row">
-        <div class="col-5">
-          <h3 class="kontakt__title">Jetzt Termin vereinbaren!</h3>
+      <section class="kontakt">
+        <div class="kontakt__left">
+          <h3 class="kontakt__left_title">Jetzt Termin vereinbaren!</h3>
         </div>
-        <div class="col-5">
-          <p class="kontakt__text">
+        <div class="kontakt__center">
+          <p class="kontakt__center_text">
             Gerne stehen wir Ihnen für eine individuelle Beratung telefonisch
             und vor Ort zur Verfügung und freuen uns über Ihre Kontaktaufnahme.
             Sprechen Sie uns an!
           </p>
-          <p class="kontakt__text">
+          <p class="kontakt__center_text">
             Fragen Sie nach einem Rückruf oder kontaktieren Sie uns unter:
             <a href="mailto: info@elsasser-technik.de"
               >info@elsasser-technik.de</a
             >
           </p>
-          <button class="kontakt__text_btn">
+          <button class="kontakt__center_text_btn">
             <img
-              class="kontakt__text_btn_arrows"
+              class="kontakt__center_text_btn_arrows"
               src="./images/icons/arrows.png"
               alt="arrows"
             />
             Kontakt
           </button>
         </div>
-        <div class="kontakt__logo1 col-2">
+        <div class="kontakt__logo1">
           <img src="./images/Logo3black.png" alt="logo" class="logo" />
         </div>
       </section>
-      <footer class="footer row">
-        <div class="col-3">
+      <footer class="footer">
+        <div class="footer__box">
           <h6 class="footer__title">Elsässer Kältetechnik</h6>
           <p>Königsallee 14</p>
           <p>40212 Düsseldorf</p>
         </div>
-        <div class="col-4">
+        <div class="footer__box">
           <h6 class="footer__title">Kontakt</h6>
           <p>
             Telefon:<a href="tel: +49021192323052">
@@ -568,7 +567,7 @@
             >
           </p>
         </div>
-        <div class="col-3">
+        <div class="footer__box">
           <h6 class="footer__title">Shortlinks</h6>
           <p>
             <a href="kontakt">
@@ -581,7 +580,7 @@
             </a>
           </p>
         </div>
-        <div class="col-2">
+        <div class="footer__box">
           <h6 class="footer__pad"></h6>
           <p class="footer__textdekor">Impressum</p>
           <p class="footer__textdekor">Datenschutz</p>

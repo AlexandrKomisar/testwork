@@ -11,6 +11,7 @@
     margin-bottom: 71px;
   }
   &__content {
+    @include flexRow;
     &_list {
       padding-left: 52px;
       &_item {

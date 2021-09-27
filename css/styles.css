@@ -264,6 +264,11 @@ img {
   margin-bottom: 71px;
 }
 
+.hauptmerk__content {
+  display: flex;
+  flex-direction: row;
+}
+
 .hauptmerk__content_list {
   padding-left: 52px;
 }
@@ -293,7 +298,9 @@ img {
 }
 
 .bilder__slide {
-  margin-left: 25%;
+  width: 50%;
+  margin-left: 50%;
+  transform: translateX(-50%);
 }
 
 .bilder__slide_nav {
@@ -326,6 +333,7 @@ img {
 }
 
 .besucher_content_btn {
+  width: 33%;
   font-family: "BBCReith Medium";
   background: linear-gradient(180deg, #0c5cd6 0%, rgba(0, 56, 140, 0) 100%), #004fc7;
   border: 2px solid #ffffff;
@@ -341,9 +349,15 @@ img {
 .kontakt {
   margin-top: 155px;
   margin-bottom: 126px;
+  display: flex;
+  flex-direction: row;
 }
 
-.kontakt__title {
+.kontakt__left {
+  width: 40%;
+}
+
+.kontakt__left_title {
   font-family: "BBCReith Bold";
   font-size: 34px;
   line-height: 43px;
@@ -352,16 +366,20 @@ img {
   margin-top: 73px;
 }
 
-.kontakt__text {
+.kontakt__center {
+  width: 40%;
+  padding: 20px;
+}
+
+.kontakt__center_text {
   font-family: "Noto Sans Regular";
   font-size: 17px;
   line-height: 32px;
   letter-spacing: -0.4px;
   color: #464c53;
-  padding-right: 40px;
 }
 
-.kontakt__text_btn {
+.kontakt__center_text_btn {
   background: linear-gradient(180deg, #0c5cd6 0%, rgba(0, 56, 140, 0) 100%), #004fc7;
   font-family: "BBCReith Medium";
   font-size: 18px;
@@ -376,21 +394,29 @@ img {
   position: relative;
 }
 
-.kontakt__text_btn_arrows {
+.kontakt__center_text_btn_arrows {
   position: absolute;
   left: 0;
   top: 0;
 }
 
 .kontakt__logo1 {
+  width: 20%;
   margin-top: 60px;
+  padding-left: 40px;
 }
 
 .footer {
+  display: flex;
+  flex-direction: row;
   margin-bottom: 56px;
   font-family: "Noto Sans Regular";
   font-size: 17px;
   color: #9eabbb;
+}
+
+.footer__box {
+  width: 25%;
 }
 
 .footer__title {
